@@ -1,0 +1,101 @@
+# ─────────────────────────────────────────────────────────────
+# .gitignore — GPR project
+# Generic base: extend it as tools and languages are chosen.
+# ─────────────────────────────────────────────────────────────
+
+# ── Operating systems ────────────────────────────────────────
+.DS_Store
+._*
+Thumbs.db
+desktop.ini
+*~
+
+# ── Editors / IDEs ───────────────────────────────────────────
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+
+# ── Secrets and local configuration ──────────────────────────
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.*
+
+# ── Archives and executables ─────────────────────────────────
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.exe
+*.dll
+*.msi
+*.iso
+
+# ── Raw data and large files (store them on the Drive) ───────
+data/raw/
+*.dzt
+*.rd3
+*.dt1
+*.sgy
+*.segy
+*.mat
+*.h5
+*.hdf5
+*.mp4
+*.mov
+*.avi
+
+# ── Python ───────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# ── C / C++ / embedded firmware ──────────────────────────────
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+.pio/
+cmake-build-*/
+Debug/
+Release/
+
+# ── MATLAB ───────────────────────────────────────────────────
+*.asv
+*.mex*
+slprj/
+
+# ── KiCad (PCB) ──────────────────────────────────────────────
+*.kicad_prl
+*-backups/
+fp-info-cache
+*.lck
+_autosave-*
+\#auto_saved_files#
+
+# ── LTspice / simulation ─────────────────────────────────────
+*.raw
+*.log
+*.op.raw
+*.fft
+
+# ── Office / temporary documents ─────────────────────────────
+~$*
+*.tmp
+*.bak
