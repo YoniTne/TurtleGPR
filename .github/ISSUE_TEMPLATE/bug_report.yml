@@ -1,0 +1,59 @@
+name: Bug report
+description: Report something that does not work as expected
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please give as much detail as possible so the team can reproduce it.
+
+  - type: dropdown
+    id: group
+    attributes:
+      label: Sub-group
+      description: Which part of the project is affected?
+      options:
+        - G1
+        - G2
+        - G3
+        - Cross-group / not sure
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What is the problem?
+      placeholder: A clear and concise description of the bug.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: How can someone else reproduce the problem?
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should have happened?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Branch, file, hardware setup, test conditions, screenshots, logs…
+    validations:
+      required: false

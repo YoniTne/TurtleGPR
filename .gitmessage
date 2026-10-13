@@ -1,0 +1,27 @@
+
+# ─────────────────────────────────────────────────────────────
+# Format: <type>(<group>): <short summary>
+#
+# Types:
+#   feat     → new feature
+#   fix      → bug fix
+#   doc      → documentation
+#   test     → add or update tests
+#   refactor → restructuring without behavior change
+#   chore    → maintenance, configuration
+#
+# Group: g1, g2, g3 (optional if the change spans several groups)
+#
+# Summary: 50 characters max, imperative mood, no trailing period
+#
+# Examples:
+#   feat(g2): add first prototype
+#   fix(g3): fix file loading
+#   doc: update README
+#
+# If needed, leave a blank line then explain:
+#   - why this change
+#   - what was changed
+#
+# Lines starting with # are ignored.
+# ─────────────────────────────────────────────────────────────

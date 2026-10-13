@@ -1,0 +1,57 @@
+name: Task
+description: Propose a feature, an improvement or a piece of work to do
+title: "[Task]: "
+labels: ["task"]
+body:
+  - type: dropdown
+    id: group
+    attributes:
+      label: Sub-group
+      description: Which part of the project is concerned?
+      options:
+        - G1
+        - G2
+        - G3
+        - Cross-group
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - Feature
+        - Improvement
+        - Hardware (schematic, PCB, antenna…)
+        - Documentation
+        - Configuration / maintenance
+    validations:
+      required: true
+
+  - type: textarea
+    id: goal
+    attributes:
+      label: Goal
+      description: What needs to be done, and why?
+    validations:
+      required: true
+
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of done
+      description: How will we know the task is finished?
+      placeholder: |
+        - [ ] ...
+        - [ ] ...
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Links, references, dependencies on other tasks…
+    validations:
+      required: false

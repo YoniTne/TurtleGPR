@@ -1,0 +1,34 @@
+name: Question
+description: Ask a question about the project, the code or the workflow
+title: "[Question]: "
+labels: ["question"]
+body:
+  - type: dropdown
+    id: group
+    attributes:
+      label: Sub-group
+      description: Which part of the project is your question about?
+      options:
+        - G1
+        - G2
+        - G3
+        - Repo / workflow
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: What would you like to know?
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: What have you already tried or checked?
+    validations:
+      required: false
