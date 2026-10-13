@@ -14,7 +14,7 @@
 # ─────────────────────────────────────────────────────────────
 
 # Default owners (root files: README, CONTRIBUTING, etc.)
-*               @YoniTne
+*               @YoniTne @Thomas127
 
 # G1 folder, reviewed by G2 and G3
 # /group-1/       @member-g2-a @member-g2-b @member-g3-a @member-g3-b
@@ -26,4 +26,4 @@
 # /group-3/       @member-g1-a @member-g1-b @member-g2-a @member-g2-b
 
 # Repo configuration (review rules, templates, workflows)
-/.github/       @YoniTne
+/.github/       @YoniTne @Thomas127
