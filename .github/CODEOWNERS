@@ -5,25 +5,33 @@
 # so every PR must be approved by someone outside the team
 # that wrote it.
 #
-# Current teams (temporary, update when groups change):
-#   G1: @member-g1-a @member-g1-b
-#   G2: @member-g2-a @member-g2-b
-#   G3: @member-g3-a @member-g3-b
+# Current teams (from the group poll, update when groups change):
+#   G1 (Tx / Rx):            @zakariyaelk @mourouhiba
+#   G2 (VNA control):        @medbmbra-hub
+#   G3 (Data acquisition):   @YoniTne
+#   G4 (Frequency sweep):    @Thomas127  @PoulpiCode
+#   G5 (Chassis):            @ClementNoelRenard
 #
 # Order matters: the LAST matching rule wins.
 # ─────────────────────────────────────────────────────────────
 
 # Default owners (root files: README, CONTRIBUTING, etc.)
-*               @YoniTne @Thomas127
+*               @YoniTne @Thomas127 @ClementNoelRenard
 
-# G1 folder, reviewed by G2 and G3
-# /group-1/       @member-g2-a @member-g2-b @member-g3-a @member-g3-b
+# G1 (Transmission / reception) folder, reviewed by G2, G3, G4, G5
+/g1-tx-rx/              @medbmbra-hub @YoniTne @Thomas127 @PoulpiCode @ClementNoelRenard
 
-# G2 folder, reviewed by G1 and G3
-# /group-2/       @member-g1-a @member-g1-b @member-g3-a @member-g3-b
+# G2 (VNA control) folder, reviewed by G1, G3, G4, G5
+/g2-vna-control/        @zakariyaelk @mourouhiba @YoniTne @Thomas127 @PoulpiCode @ClementNoelRenard
 
-# G3 folder, reviewed by G1 and G2
-# /group-3/       @member-g1-a @member-g1-b @member-g2-a @member-g2-b
+# G3 (Data acquisition) folder, reviewed by G1, G2, G4, G5
+/g3-data-acquisition/   @zakariyaelk @mourouhiba @medbmbra-hub @Thomas127 @PoulpiCode @ClementNoelRenard
+
+# G4 (Frequency sweep) folder, reviewed by G1, G2, G3, G5
+/g4-frequency-sweep/    @zakariyaelk @mourouhiba @medbmbra-hub @YoniTne @ClementNoelRenard
+
+# G5 (Chassis) folder, reviewed by G1, G2, G3, G4
+/g5-chassis/            @zakariyaelk @mourouhiba @medbmbra-hub @YoniTne @Thomas127 @PoulpiCode
 
 # Repo configuration (review rules, templates, workflows)
-/.github/       @YoniTne @Thomas127
+/.github/       @YoniTne @Thomas127 @ClementNoelRenard

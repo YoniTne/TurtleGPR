@@ -8,9 +8,11 @@ The project is split into sub-groups, each responsible for its own folder:
 
 | Sub-group | Folder | Branch prefix |
 |---|---|---|
-| G1 — *TBD* | `/group-1/` | `g1/` |
-| G2 — *TBD* | `/group-2/` | `g2/` |
-| G3 — *TBD* | `/group-3/` | `g3/` |
+| G1 — Transmission / reception | `/g1-tx-rx/` | `g1/` |
+| G2 — VNA control | `/g2-vna-control/` | `g2/` |
+| G3 — Data acquisition | `/g3-data-acquisition/` | `g3/` |
+| G4 — Frequency sweep | `/g4-frequency-sweep/` | `g4/` |
+| G5 — Chassis | `/g5-chassis/` | `g5/` |
 
 > ⚠️ The composition and role of the sub-groups are **temporary** and will be updated as the project evolves. The current list of members for each group is kept at the top of the `.github/CODEOWNERS` file.
 
@@ -61,7 +63,7 @@ Commit messages follow this format:
 ```
 
 - **type**: `feat` (new feature), `fix` (bug fix), `doc` (documentation), `test` (tests), `refactor` (restructuring without behavior change), `chore` (maintenance, configuration)
-- **group**: `g1`, `g2` or `g3`, optional if the change spans several groups
+- **group**: `g1` to `g5`, optional if the change spans several groups
 - **summary**: 50 characters max, imperative mood, no trailing period
 
 Examples:

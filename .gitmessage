@@ -10,7 +10,7 @@
 #   refactor → restructuring without behavior change
 #   chore    → maintenance, configuration
 #
-# Group: g1, g2, g3 (optional if the change spans several groups)
+# Group: g1, g2, g3, g4, g5 (optional if the change spans several groups)
 #
 # Summary: 50 characters max, imperative mood, no trailing period
 #

@@ -4,9 +4,11 @@
 
 ## Sub-group
 
-- [ ] G1
-- [ ] G2
-- [ ] G3
+- [ ] G1 — Transmission / reception
+- [ ] G2 — VNA control
+- [ ] G3 — Data acquisition
+- [ ] G4 — Frequency sweep
+- [ ] G5 — Chassis
 - [ ] Cross-group (several groups, documentation, repo configuration)
 
 ## Type of change

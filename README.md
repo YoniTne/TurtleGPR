@@ -23,9 +23,11 @@ Releases are published in the [Releases](../../releases) section, following the 
 | Role | Members |
 |---|---|
 | Project lead | TBD |
-| G1 | TBD |
-| G2 | TBD |
-| G3 | TBD |
+| G1 — Transmission / reception | TBD |
+| G2 — VNA control | TBD |
+| G3 — Data acquisition | TBD |
+| G4 — Frequency sweep | TBD |
+| G5 — Chassis | TBD |
 
 ## License
 
