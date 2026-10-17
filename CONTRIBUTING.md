@@ -14,7 +14,7 @@ The project is split into sub-groups, each responsible for its own folder:
 | G4 — Frequency sweep | `/g4-frequency-sweep/` | `g4/` |
 | G5 — Chassis | `/g5-chassis/` | `g5/` |
 
-> ⚠️ The composition and role of the sub-groups are **temporary** and will be updated as the project evolves. The current list of members for each group is kept at the top of the `.github/CODEOWNERS` file.
+> ⚠️ The composition and role of the sub-groups are **temporary** and will be updated as the project evolves. The current list of members for each group is kept in the [README](README.md#team) and at the top of the `.github/CODEOWNERS` file (update both).
 
 ## First-time setup
 

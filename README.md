@@ -23,11 +23,11 @@ Releases are published in the [Releases](../../releases) section, following the 
 | Role | Members |
 |---|---|
 | Project lead | TBD |
-| G1 — Transmission / reception | TBD |
-| G2 — VNA control | TBD |
-| G3 — Data acquisition | TBD |
-| G4 — Frequency sweep | TBD |
-| G5 — Chassis | TBD |
+| G1 — Transmission / reception | @zakariyaelk, @mourouhiba |
+| G2 — VNA control | @medbmbra-hub |
+| G3 — Data acquisition | @YoniTne, @boudedjaalycia6-hue |
+| G4 — Frequency sweep | @Thomas127, @PoulpiCode |
+| G5 — Chassis | @ClementNoelRenard, @ytahaxx |
 
 ## License
 
