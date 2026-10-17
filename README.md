@@ -22,7 +22,7 @@ Releases are published in the [Releases](../../releases) section, following the 
 
 | Role | Members |
 |---|---|
-| Project lead | TBD |
+| Project lead | @ClementNoelRenard |
 | G1 — Transmission / reception | @zakariyaelk, @mourouhiba |
 | G2 — VNA control | @medbmbra-hub |
 | G3 — Data acquisition | @YoniTne, @boudedjaalycia6-hue |
