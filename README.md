@@ -31,4 +31,10 @@ Releases are published in the [Releases](../../releases) section, following the 
 
 ## License
 
-To be defined.
+| Content | License |
+|---|---|
+| Software (code, firmware, scripts) | [GPL-3.0-or-later](LICENSES/GPL-3.0-or-later.txt) |
+| Hardware (schematics, PCB, chassis, BOM) | [CERN-OHL-S-2.0](LICENSES/CERN-OHL-S-2.0.txt) |
+| Documentation (text, diagrams, images) | [CC BY-SA 4.0](LICENSES/CC-BY-SA-4.0.txt) |
+
+See [LICENSE](LICENSE) for details.

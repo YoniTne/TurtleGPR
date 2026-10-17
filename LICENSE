@@ -1,0 +1,16 @@
+Copyright (c) 2026 TurtleGPR contributors
+
+TurtleGPR is distributed under three licenses, depending on the type of content:
+
+- Software (source code, firmware, scripts): GNU General Public License v3.0 or later
+  SPDX: GPL-3.0-or-later — see LICENSES/GPL-3.0-or-later.txt
+
+- Hardware (schematics, PCB layouts, mechanical/chassis designs, BOMs):
+  CERN Open Hardware Licence Version 2 - Strongly Reciprocal
+  SPDX: CERN-OHL-S-2.0 — see LICENSES/CERN-OHL-S-2.0.txt
+
+- Documentation (text, diagrams, images, reports):
+  Creative Commons Attribution-ShareAlike 4.0 International
+  SPDX: CC-BY-SA-4.0 — see LICENSES/CC-BY-SA-4.0.txt
+
+When a file carries its own SPDX-License-Identifier header, that header takes precedence.
