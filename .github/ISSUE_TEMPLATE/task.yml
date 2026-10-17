@@ -9,9 +9,11 @@ body:
       label: Sub-group
       description: Which part of the project is concerned?
       options:
-        - G1
-        - G2
-        - G3
+        - G1 — Transmission / reception
+        - G2 — VNA control
+        - G3 — Data acquisition
+        - G4 — Frequency sweep
+        - G5 — Chassis
         - Cross-group
     validations:
       required: true

@@ -1,0 +1,24 @@
+# Maps files to their license (REUSE spec: https://reuse.software/spec/).
+# Add file patterns to `path` once each group knows its file types,
+# then uncomment the block. Check with: reuse lint
+# A SPDX-License-Identifier header inside a file takes precedence.
+
+version = 1
+
+# Software (source code, firmware, scripts)
+# [[annotations]]
+# path = []
+# SPDX-FileCopyrightText = "2026 TurtleGPR contributors"
+# SPDX-License-Identifier = "GPL-3.0-or-later"
+
+# Hardware (schematics, PCB layouts, mechanical/chassis designs, BOMs)
+# [[annotations]]
+# path = []
+# SPDX-FileCopyrightText = "2026 TurtleGPR contributors"
+# SPDX-License-Identifier = "CERN-OHL-S-2.0"
+
+# Documentation (text, diagrams, images, reports)
+# [[annotations]]
+# path = []
+# SPDX-FileCopyrightText = "2026 TurtleGPR contributors"
+# SPDX-License-Identifier = "CC-BY-SA-4.0"

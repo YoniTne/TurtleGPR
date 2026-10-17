@@ -22,11 +22,19 @@ Releases are published in the [Releases](../../releases) section, following the 
 
 | Role | Members |
 |---|---|
-| Project lead | TBD |
-| G1 | TBD |
-| G2 | TBD |
-| G3 | TBD |
+| Project lead | @ClementNoelRenard |
+| G1 — Transmission / reception | @zakariyaelk, @mourouhiba |
+| G2 — VNA control | @medbmbra-hub |
+| G3 — Data acquisition | @YoniTne, @boudedjaalycia6-hue |
+| G4 — Frequency sweep | @Thomas127, @PoulpiCode |
+| G5 — Chassis | @ClementNoelRenard, @ytahaxx |
 
 ## License
 
-To be defined.
+| Content | License |
+|---|---|
+| Software (code, firmware, scripts) | [GPL-3.0-or-later](LICENSES/GPL-3.0-or-later.txt) |
+| Hardware (schematics, PCB, chassis, BOM) | [CERN-OHL-S-2.0](LICENSES/CERN-OHL-S-2.0.txt) |
+| Documentation (text, diagrams, images) | [CC BY-SA 4.0](LICENSES/CC-BY-SA-4.0.txt) |
+
+See [LICENSE](LICENSE) for details.
