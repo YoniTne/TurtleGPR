@@ -6,10 +6,10 @@
 version = 1
 
 # Software (source code, firmware, scripts)
-# [[annotations]]
-# path = []
-# SPDX-FileCopyrightText = "2026 TurtleGPR contributors"
-# SPDX-License-Identifier = "GPL-3.0-or-later"
+[[annotations]]
+path = ["g3-data-acquisition/**"]
+SPDX-FileCopyrightText = "2026 TurtleGPR contributors"
+SPDX-License-Identifier = "GPL-3.0-or-later"
 
 # Hardware (schematics, PCB layouts, mechanical/chassis designs, BOMs)
 # [[annotations]]
@@ -18,7 +18,8 @@ version = 1
 # SPDX-License-Identifier = "CERN-OHL-S-2.0"
 
 # Documentation (text, diagrams, images, reports)
-# [[annotations]]
-# path = []
-# SPDX-FileCopyrightText = "2026 TurtleGPR contributors"
-# SPDX-License-Identifier = "CC-BY-SA-4.0"
+# Listed after Software: when several annotations match a file, the last one wins.
+[[annotations]]
+path = ["g3-data-acquisition/**/*.md"]
+SPDX-FileCopyrightText = "2026 TurtleGPR contributors"
+SPDX-License-Identifier = "CC-BY-SA-4.0"

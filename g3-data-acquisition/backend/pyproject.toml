@@ -3,6 +3,7 @@ name = "turtlegpr-acquisition"
 version = "0.1.0"
 description = "TurtleGPR data acquisition backend (G3): drives sweeps, records raw data and serves the supervision UI"
 readme = "README.md"
+license = "GPL-3.0-or-later"
 authors = [
     { name = "LordYoni", email = "yoni.taine@etud.u-picardie.fr" }
 ]
