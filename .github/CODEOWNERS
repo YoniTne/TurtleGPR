@@ -6,8 +6,8 @@
 # that wrote it.
 #
 # Current teams (from the group poll, update when groups change):
-#   G1 (Tx / Rx):            @zakariyaelk @mourouhiba
-#   G2 (VNA control):        @medbmbra-hub
+#   G1 (Tx / Rx):            @zakariyaelk @mourouhiba @Douaa-EL
+#   G2 (VNA control):        @medbmbra-hub @GrosChien @ludovictoupo-glitch
 #   G3 (Data acquisition):   @YoniTne @boudedjaalycia6-hue
 #   G4 (Frequency sweep):    @Thomas127  @PoulpiCode
 #   G5 (Chassis):            @ClementNoelRenard @ytahaxx
@@ -19,19 +19,19 @@
 *               @YoniTne @Thomas127 @ClementNoelRenard
 
 # G1 (Transmission / reception) folder, reviewed by G2, G3, G4, G5
-/g1-tx-rx/              @medbmbra-hub @YoniTne @boudedjaalycia6-hue @Thomas127 @PoulpiCode @ClementNoelRenard @ytahaxx
+/g1-tx-rx/              @medbmbra-hub @GrosChien @ludovictoupo-glitch @YoniTne @boudedjaalycia6-hue @Thomas127 @PoulpiCode @ClementNoelRenard @ytahaxx
 
 # G2 (VNA control) folder, reviewed by G1, G3, G4, G5
-/g2-vna-control/        @zakariyaelk @mourouhiba @YoniTne @boudedjaalycia6-hue @Thomas127 @PoulpiCode @ClementNoelRenard @ytahaxx
+/g2-vna-control/        @zakariyaelk @mourouhiba @Douaa-EL @YoniTne @boudedjaalycia6-hue @Thomas127 @PoulpiCode @ClementNoelRenard @ytahaxx
 
 # G3 (Data acquisition) folder, reviewed by G1, G2, G4, G5
-/g3-data-acquisition/   @zakariyaelk @mourouhiba @medbmbra-hub @Thomas127 @PoulpiCode @ClementNoelRenard @ytahaxx
+/g3-data-acquisition/   @zakariyaelk @mourouhiba @Douaa-EL @medbmbra-hub @GrosChien @ludovictoupo-glitch @Thomas127 @PoulpiCode @ClementNoelRenard @ytahaxx
 
 # G4 (Frequency sweep) folder, reviewed by G1, G2, G3, G5
-/g4-frequency-sweep/    @zakariyaelk @mourouhiba @medbmbra-hub @YoniTne @boudedjaalycia6-hue @ClementNoelRenard @ytahaxx
+/g4-frequency-sweep/    @zakariyaelk @mourouhiba @Douaa-EL @medbmbra-hub @GrosChien @ludovictoupo-glitch @YoniTne @boudedjaalycia6-hue @ClementNoelRenard @ytahaxx
 
 # G5 (Chassis) folder, reviewed by G1, G2, G3, G4
-/g5-chassis/            @zakariyaelk @mourouhiba @medbmbra-hub @YoniTne @boudedjaalycia6-hue @Thomas127 @PoulpiCode
+/g5-chassis/            @zakariyaelk @mourouhiba @Douaa-EL @medbmbra-hub @GrosChien @ludovictoupo-glitch @YoniTne @boudedjaalycia6-hue @Thomas127 @PoulpiCode
 
 # Repo configuration (review rules, templates, workflows)
 /.github/       @YoniTne @Thomas127 @ClementNoelRenard
