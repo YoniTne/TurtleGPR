@@ -23,8 +23,8 @@ Releases are published in the [Releases](../../releases) section, following the 
 | Role | Members |
 |---|---|
 | Project lead | @ClementNoelRenard |
-| G1 — Transmission / reception | @zakariyaelk, @mourouhiba |
-| G2 — VNA control | @medbmbra-hub |
+| G1 — Transmission / reception | @zakariyaelk, @mourouhiba, @Douaa-EL |
+| G2 — VNA control | @medbmbra-hub, @GrosChien, @ludovictoupo-glitch |
 | G3 — Data acquisition | @YoniTne, @boudedjaalycia6-hue |
 | G4 — Frequency sweep | @Thomas127, @PoulpiCode |
 | G5 — Chassis | @ClementNoelRenard, @ytahaxx |
