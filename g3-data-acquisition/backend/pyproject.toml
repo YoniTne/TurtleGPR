@@ -1,0 +1,24 @@
+[project]
+name = "turtlegpr-acquisition"
+version = "0.1.0"
+description = "TurtleGPR data acquisition backend (G3): drives sweeps, records raw data and serves the supervision UI"
+readme = "README.md"
+license = "GPL-3.0-or-later"
+authors = [
+    { name = "LordYoni", email = "yoni.taine@etud.u-picardie.fr" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.146.0",
+    "uvicorn[standard]>=0.54.0",
+]
+
+[dependency-groups]
+dev = [
+    "httpx2>=2.14.0",
+    "pytest>=9.1.1",
+    "ruff>=0.17.1",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
