@@ -16,9 +16,9 @@ Lien produit : https://www.wimo.com/fr/lpda-max
 | Puissance max | 25 W |
 | Polarisation | Linéaire |
 | Connecteur | SMA femelle |
-| Longueur | 0,5 m |
+| Longueur | 0,5 m ( 500 mm ) |
 | Poids | 465 g |
-| Fixation | Trous espacés de 1 pouce en bout de PCB |
+| Fixation | Trous de fixation espacés de 1 pouce (2,54 cm) à l’extrémité du circuit imprimé |
 | Prix | 199 € TTC |
 
 ## Intérêt pour le GPR
