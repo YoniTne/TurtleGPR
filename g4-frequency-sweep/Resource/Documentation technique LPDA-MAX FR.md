@@ -21,8 +21,6 @@ Les applications de ces antennes sont nombreuses : outre les dispositifs IOT dan
 
 [](https://github.com/YoniTne/TurtleGPR/blob/main/g1-tx-rx/documentation_antenne_lpda_vna.md#1-technical-specifications)
 
-|Parameter|Value|
-|:--|:--|
 |Paramètre|Valeur|
 |:--|:--|
 |**Type**|Réseau dipolaire log-périodique (LPDA)|
